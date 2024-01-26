@@ -1,0 +1,4 @@
+#! /bin/bash
+
+ls -A ./files/ | xargs -I % cp ./files/% ./archlive/airootfs/root/%
+sudo mkarchiso -v ./archlive

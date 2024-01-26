@@ -1,0 +1,6 @@
+work/
+out/
+archlive/airootfs/root/.nanorc
+archlive/airootfs/root/.tmux.conf
+archlive/airootfs/root/install
+archlive/airootfs/root/options.conf
