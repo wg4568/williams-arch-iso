@@ -1,6 +1,6 @@
 #! /bin/bash
 
 sudo rm -rf ./.work
-sudo rm -rf ./build
+sudo rm -rf ./builds
 ls -A ./files/ | xargs -I % rm ./archlive/airootfs/root/%
 echo "Done."
